@@ -228,29 +228,33 @@ run = 'move-node-to-workspace 1'
 # if.app-id = 'com.mitchellh.ghostty'
 # run = 'move-node-to-workspace T'
 
-[[on-window-detected]]
-if.app-id = 'ru.keepcoder.Telegram'
-run = 'move-node-to-workspace P'
+# [[on-window-detected]]
+# if.app-id = 'ru.keepcoder.Telegram'
+# run = 'move-node-to-workspace P'
 
-[[on-window-detected]]
-if.app-id = 'net.whatsapp.WhatsApp'
-run = 'move-node-to-workspace P'
+# [[on-window-detected]]
+# if.app-id = 'net.whatsapp.WhatsApp'
+# run = 'move-node-to-workspace P'
 
 [[on-window-detected]]
 if.app-id = 'com.tinyspeck.slackmacgap'
 run = 'move-node-to-workspace 2'
 
-[[on-window-detected]]
-if.app-id = 'com.hnc.Discord'
-run = 'move-node-to-workspace 2'
+# [[on-window-detected]]
+# if.app-id = 'com.hnc.Discord'
+# run = 'move-node-to-workspace 2'
 
 [[on-window-detected]]
 if.app-id = 'com.microsoft.VSCode'
-run = 'move-node-to-workspace C'
+run = 'move-node-to-workspace W'
 
 [[on-window-detected]]
-if.app-id = 'com.spotify.client'
-run = 'move-node-to-workspace M'
+if.app-id = 'dev.zed.Zed'
+run = 'move-node-to-workspace W'
+
+# [[on-window-detected]]
+# if.app-id = 'com.spotify.client'
+# run = 'move-node-to-workspace M'
 
 [[on-window-detected]]
 if.app-id = 'com.apple.systempreferences'
