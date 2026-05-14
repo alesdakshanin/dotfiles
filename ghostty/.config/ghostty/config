@@ -20,7 +20,12 @@ quick-terminal-size = 70%
 quick-terminal-animation-duration = 0.2
 quick-terminal-autohide = true
 
+keybind = super+t=unbind
 confirm-close-surface = false
+copy-on-select = true
 #window-decoration = false
-macos-titlebar-style = native
+macos-titlebar-style = hidden
+window-padding-x = 8
+window-padding-y = 8,4
+window-padding-balance = true
 
